@@ -12,5 +12,7 @@ php composer.phar create-project -sdev zendframework/skeleton-application myzend
 Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
 
 上網查詢解決方式：
+
 指令：a2enmod rewrite
+
 指令：systemctl restart apache2   #重啟apache2
